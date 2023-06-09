@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Chi nhánh</string>
+    <string-array name="planets_array">
+        <item>Sáng</item>
+        <item>Trưa</item>
+        <item>Chiều</item>
+    </string-array>
+</resources>

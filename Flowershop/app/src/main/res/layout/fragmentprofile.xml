@@ -1,0 +1,92 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/contentBodyColor">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="30dp">
+
+        <TextView
+            style="@style/viewParent.headerText"
+            android:text="Cài đặt chung"
+            android:textSize="40dp"
+            android:fontFamily="@font/utmamerikasans"
+            android:textColor="@color/imageBorderColor"/>
+
+        <RelativeLayout
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profileCircleImageView"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/gt3"
+                app:civ_border_color="#6C7136"
+                app:civ_border_width="2dp" />
+
+            <TextView
+                android:id="@+id/usernameTextView"
+                style="@style/viewParent.headerText"
+                android:layout_marginTop="30dp"
+                android:layout_toRightOf="@id/profileCircleImageView"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/email"
+                style="@style/viewParent.headerText"
+                android:layout_below="@id/usernameTextView"
+                android:fontFamily="@font/calibri_regular"
+                android:textSize="16sp"
+                android:layout_toRightOf="@id/profileCircleImageView"
+                android:textColor="#5D5C5C"/>
+
+            <ImageView
+                style="@style/viewParent"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_more" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/txteditprofile"
+            style="@style/viewParent.headerText.settingsTextIcon"
+            android:drawableLeft="@drawable/icons8_user_50px"
+            android:text="Sửa thông tin cá nhân" />
+
+        <TextView
+            android:id="@+id/txtchangepassword"
+            style="@style/viewParent.headerText.settingsTextIcon"
+            android:layout_marginTop="30dp"
+            android:drawableLeft="@drawable/ic_baseline_security_24"
+            android:text="Thay đổi mật khẩu" />
+
+
+
+
+        <TextView
+            android:id="@+id/logout"
+            android:layout_marginTop="30dp"
+            style="@style/viewParent.headerText.settingsTextIcon"
+            android:drawableLeft="@drawable/ic_baseline_logout_24"
+            android:text="Đăng xuất" />
+
+
+        <TextView
+            android:layout_marginTop="300dp"
+            android:textColor="@color/imageBorderColor"
+            style="@style/viewParent.headerText.settingsMiniTitle"
+            android:gravity="center_horizontal"
+            android:textAlignment="center" />
+
+    </LinearLayout>
+</ScrollView>

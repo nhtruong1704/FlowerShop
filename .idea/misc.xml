@@ -1,0 +1,88 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Food-master/app/src/main/res/drawable-v24/background_right.xml" value="0.124" />
+        <entry key="..\:/Food-master/app/src/main/res/drawable-v24/bg_banner_rating.xml" value="0.1645" />
+        <entry key="..\:/Food-master/app/src/main/res/drawable-v24/bg_t.xml" value="0.1645" />
+        <entry key="..\:/Food-master/app/src/main/res/drawable-v24/ic_baseline_shopping_basket_24.xml" value="0.1645" />
+        <entry key="..\:/Food-master/app/src/main/res/drawable-v24/rounded_corner.xml" value="0.124" />
+        <entry key="..\:/Food-master/app/src/main/res/drawable/bg_tl.xml" value="0.1645" />
+        <entry key="..\:/Food-master/app/src/main/res/drawable/boggocbutton.xml" value="0.124" />
+        <entry key="..\:/Food-master/app/src/main/res/drawable/btn_gradient_style.xml" value="0.124" />
+        <entry key="..\:/Food-master/app/src/main/res/drawable/ic_baseline_horizontal_rule_24.xml" value="0.1645" />
+        <entry key="..\:/Food-master/app/src/main/res/drawable/ic_languages.xml" value="0.1645" />
+        <entry key="..\:/Food-master/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1645" />
+        <entry key="..\:/Food-master/app/src/main/res/layout/activity_chitietfood.xml" value="0.2" />
+        <entry key="..\:/Food-master/app/src/main/res/layout/activity_food_product.xml" value="0.12360688956433637" />
+        <entry key="..\:/Food-master/app/src/main/res/layout/activity_food_profile.xml" value="0.176" />
+        <entry key="..\:/Food-master/app/src/main/res/layout/activity_giao_dich.xml" value="0.11302083333333333" />
+        <entry key="..\:/Food-master/app/src/main/res/layout/activity_giaodich.xml" value="0.21603260869565216" />
+        <entry key="..\:/Food-master/app/src/main/res/layout/activity_gioithieu.xml" value="0.21603260869565216" />
+        <entry key="..\:/Food-master/app/src/main/res/layout/activity_intro.xml" value="0.12360688956433637" />
+        <entry key="..\:/Food-master/app/src/main/res/layout/activity_listfood.xml" value="0.21603260869565216" />
+        <entry key="..\:/Food-master/app/src/main/res/layout/activity_login.xml" value="0.21603260869565216" />
+        <entry key="..\:/Food-master/app/src/main/res/layout/activity_main.xml" value="0.12360688956433637" />
+        <entry key="..\:/Food-master/app/src/main/res/layout/activity_map.xml" value="0.21603260869565216" />
+        <entry key="..\:/Food-master/app/src/main/res/layout/activity_messeger.xml" value="0.21603260869565216" />
+        <entry key="..\:/Food-master/app/src/main/res/layout/activity_modau.xml" value="0.21603260869565216" />
+        <entry key="..\:/Food-master/app/src/main/res/layout/activity_resetpassword.xml" value="0.21603260869565216" />
+        <entry key="..\:/Food-master/app/src/main/res/layout/activity_search.xml" value="0.21603260869565216" />
+        <entry key="..\:/Food-master/app/src/main/res/layout/activity_splash_screen.xml" value="0.21603260869565216" />
+        <entry key="..\:/Food-master/app/src/main/res/layout/activity_thanh_toan.xml" value="0.21603260869565216" />
+        <entry key="..\:/Food-master/app/src/main/res/layout/activity_tinhtien.xml" value="0.21603260869565216" />
+        <entry key="..\:/Food-master/app/src/main/res/layout/badge_icon_layout.xml" value="0.12360688956433637" />
+        <entry key="..\:/Food-master/app/src/main/res/layout/bills.xml" value="0.25" />
+        <entry key="..\:/Food-master/app/src/main/res/layout/carthoadonrow.xml" value="0.21603260869565216" />
+        <entry key="..\:/Food-master/app/src/main/res/layout/cartrow.xml" value="0.21603260869565216" />
+        <entry key="..\:/Food-master/app/src/main/res/layout/categoryrow.xml" value="0.21603260869565216" />
+        <entry key="..\:/Food-master/app/src/main/res/layout/chat_item_left.xml" value="0.176" />
+        <entry key="..\:/Food-master/app/src/main/res/layout/chat_item_right.xml" value="0.21603260869565216" />
+        <entry key="..\:/Food-master/app/src/main/res/layout/chitiet_monan.xml" value="0.21603260869565216" />
+        <entry key="..\:/Food-master/app/src/main/res/layout/dulieusach.xml" value="0.5943970767356882" />
+        <entry key="..\:/Food-master/app/src/main/res/layout/fragmentcart.xml" value="0.12360688956433637" />
+        <entry key="..\:/Food-master/app/src/main/res/layout/fragmentchangepassword.xml" value="0.12360688956433637" />
+        <entry key="..\:/Food-master/app/src/main/res/layout/fragmentchat.xml" value="0.21603260869565216" />
+        <entry key="..\:/Food-master/app/src/main/res/layout/fragmenteditprofile.xml" value="0.2" />
+        <entry key="..\:/Food-master/app/src/main/res/layout/fragmentfavorite.xml" value="0.21603260869565216" />
+        <entry key="..\:/Food-master/app/src/main/res/layout/fragmentfixthongtin.xml" value="0.21603260869565216" />
+        <entry key="..\:/Food-master/app/src/main/res/layout/fragmentgd.xml" value="0.21603260869565216" />
+        <entry key="..\:/Food-master/app/src/main/res/layout/fragmentgdd.xml" value="0.21603260869565216" />
+        <entry key="..\:/Food-master/app/src/main/res/layout/fragmentgdtb.xml" value="0.21603260869565216" />
+        <entry key="..\:/Food-master/app/src/main/res/layout/fragmentgdtc.xml" value="0.21603260869565216" />
+        <entry key="..\:/Food-master/app/src/main/res/layout/fragmenthistory.xml" value="0.21603260869565216" />
+        <entry key="..\:/Food-master/app/src/main/res/layout/fragmenthome.xml" value="0.12360688956433637" />
+        <entry key="..\:/Food-master/app/src/main/res/layout/fragmentlogin.xml" value="0.12360688956433637" />
+        <entry key="..\:/Food-master/app/src/main/res/layout/fragmentprofile.xml" value="0.4" />
+        <entry key="..\:/Food-master/app/src/main/res/layout/fragmentsignup.xml" value="0.21603260869565216" />
+        <entry key="..\:/Food-master/app/src/main/res/layout/fragmentthontin.xml" value="0.2" />
+        <entry key="..\:/Food-master/app/src/main/res/layout/icon_bage.xml" value="0.21603260869565216" />
+        <entry key="..\:/Food-master/app/src/main/res/layout/imgae_slider.xml" value="0.12360688956433637" />
+        <entry key="..\:/Food-master/app/src/main/res/layout/item_categorieshome.xml" value="0.8" />
+        <entry key="..\:/Food-master/app/src/main/res/layout/item_chat.xml" value="0.21603260869565216" />
+        <entry key="..\:/Food-master/app/src/main/res/layout/itemfood.xml" value="0.21603260869565216" />
+        <entry key="..\:/Food-master/app/src/main/res/layout/itemfoodprofile.xml" value="0.12360688956433637" />
+        <entry key="..\:/Food-master/app/src/main/res/layout/layout_connection_problem.xml" value="0.21603260869565216" />
+        <entry key="..\:/Food-master/app/src/main/res/layout/layout_screen.xml" value="0.21603260869565216" />
+        <entry key="..\:/Food-master/app/src/main/res/layout/list_item_review.xml" value="0.21603260869565216" />
+        <entry key="..\:/Food-master/app/src/main/res/layout/loai_monan.xml" value="0.8800000000000001" />
+        <entry key="..\:/Food-master/app/src/main/res/layout/monan.xml" value="0.20923913043478262" />
+        <entry key="..\:/Food-master/app/src/main/res/layout/row_cart.xml" value="0.16799999999999998" />
+        <entry key="..\:/Food-master/app/src/main/res/layout/row_carthdct.xml" value="0.2" />
+        <entry key="..\:/Food-master/app/src/main/res/layout/row_category.xml" value="0.21603260869565216" />
+        <entry key="..\:/Food-master/app/src/main/res/layout/row_xacnhan.xml" value="0.21603260869565216" />
+        <entry key="..\:/Food-master/app/src/main/res/layout/themxoasua.xml" value="0.21603260869565216" />
+        <entry key="..\:/Food-master/app/src/main/res/layout/tinhtrangdonrow.xml" value="0.21603260869565216" />
+        <entry key="..\:/Food-master/app/src/main/res/layout/view_card.xml" value="0.21603260869565216" />
+        <entry key="..\:/Food-master/app/src/main/res/layout/view_card_poster.xml" value="0.12360688956433637" />
+        <entry key="..\:/Food-master/app/src/main/res/menu/menu_detail.xml" value="0.25416666666666665" />
+        <entry key="..\:/Food-master/app/src/main/res/menu/toolbars.xml" value="0.25025641025641027" />
+        <entry key="..\:/Food-master/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1645" />
+        <entry key="..\:/Food-master/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1645" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="corretto-1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+</project>
