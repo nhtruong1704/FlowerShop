@@ -13,7 +13,7 @@
 
         <TextView
             style="@style/viewParent.headerText"
-            android:fontFamily="@font/utmamerikasans"
+            android:fontFamily="@font/shrikhand_regular"
             android:textSize="30dp"
             android:text="Menu" />
 

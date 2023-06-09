@@ -130,5 +130,7 @@
 
     <style name="viewParent.headerText.settingsTextIcon" parent="settingsText">
         <item name="android:drawableRight">@drawable/ic_more</item>
+        <item name="android:fontFamily">@font/varelaround_regular</item>
+
     </style>
 </resources>

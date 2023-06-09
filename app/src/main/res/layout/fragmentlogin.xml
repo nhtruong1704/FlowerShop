@@ -5,6 +5,7 @@
     android:orientation="vertical"
     android:gravity="center">
     <EditText
+        android:fontFamily="@font/varelaround_regular"
         android:layout_width="300dp"
         android:hint="Email"
         android:id="@+id/edtemail"
@@ -12,13 +13,12 @@
         android:paddingTop="10dp"
         android:theme="@style/foating"
         android:paddingBottom="10dp"
-        android:fontFamily="@font/poppinregular"
         android:background="@drawable/boggocedt"
         android:layout_height="wrap_content"/>
     <EditText
+        android:fontFamily="@font/varelaround_regular"
         android:layout_width="300dp"
         android:hint="Password"
-        android:fontFamily="@font/poppinregular"
         android:paddingLeft="20dp"
         android:paddingTop="10dp"
         android:id="@+id/edtpass"
@@ -43,6 +43,7 @@
         android:layout_marginRight="30dp"
         android:theme="@style/foating"
         android:background="@drawable/boggocbutton"
+        android:fontFamily="@font/robotobold"
         android:text="Login"/>
 
 

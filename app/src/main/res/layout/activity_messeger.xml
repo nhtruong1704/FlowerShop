@@ -60,6 +60,7 @@
             android:drawablePadding="8dp"
             android:gravity="center_vertical"
             android:hint="Type message.."
+            android:fontFamily="@font/varelaround_regular"
             android:inputType="text"
             android:padding="10dp"
             android:singleLine="true"

@@ -52,6 +52,7 @@
             android:id="@+id/tvItemChat"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/robotobold"
             android:text="Name"
             android:textColor="@color/black"
             android:textSize="17sp"

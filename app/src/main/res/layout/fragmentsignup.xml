@@ -8,6 +8,7 @@
     <EditText
         android:layout_width="300dp"
         android:hint="Email"
+        android:fontFamily="@font/varelaround_regular"
         android:paddingLeft="20dp"
         android:paddingTop="10dp"
         android:theme="@style/foating"
@@ -16,6 +17,7 @@
         android:background="@drawable/boggocedt"
         android:layout_height="wrap_content"/>
     <EditText
+        android:fontFamily="@font/varelaround_regular"
         android:layout_width="300dp"
         android:hint="Enter password"
         android:paddingLeft="20dp"
@@ -29,6 +31,7 @@
         android:layout_height="wrap_content"
         app:passwordToggleEnabled="true"/>
     <EditText
+        android:fontFamily="@font/varelaround_regular"
         android:layout_width="300dp"
         android:hint="Re-enter password"
         android:layout_marginTop="20dp"
@@ -50,6 +53,7 @@
         android:layout_marginRight="30dp"
         android:theme="@style/foating"
         android:background="@drawable/boggocbutton"
+        android:fontFamily="@font/robotobold"
         android:text="Sign up"/>
     <ProgressBar
         android:id="@+id/profile_progressBar"

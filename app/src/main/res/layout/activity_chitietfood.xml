@@ -211,6 +211,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
                 android:text="Related flowers"
+                android:fontFamily="@font/varelaround_regular"
                 app:layout_constraintTop_toBottomOf="@id/guide_info_panel" />
 
             <View
@@ -241,7 +242,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 android:visibility="visible"
-
+                android:fontFamily="@font/robotobold"
                 app:layout_constraintTop_toBottomOf="@id/rv_reviews"
                 tools:layout_editor_absoluteX="0dp"
                 tools:visibility="visible" />

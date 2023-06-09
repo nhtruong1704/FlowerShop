@@ -65,7 +65,7 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
-        android:fontFamily="@font/baloo"
+        android:fontFamily="@font/robotobold"
         android:textSize="20dp"
         android:backgroundTint="#018786"
         android:text="Add to cart" />

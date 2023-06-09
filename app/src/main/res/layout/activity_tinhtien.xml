@@ -51,11 +51,11 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="5dp"
-                    android:fontFamily="@font/poppinregular"
+                    android:fontFamily="@font/varelaround_regular"
                     android:gravity="center"
                     android:text="Delivery: "
                     android:textColor="@color/black"
-                    android:textSize="18sp"
+                    android:textSize="22sp"
                     android:textStyle="bold" />
             </LinearLayout>
 
@@ -98,11 +98,11 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="5dp"
-                    android:fontFamily="@font/allfont_medium"
+                    android:fontFamily="@font/varelaround_regular"
                     android:gravity="center"
                     android:text="Your order: "
                     android:textColor="@color/black"
-                    android:textSize="18sp"
+                    android:textSize="20sp"
                     android:textStyle="bold" />
             </LinearLayout>
 
@@ -122,7 +122,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_marginLeft="10dp"
-                    android:fontFamily="@font/poppinregular"
+                    android:fontFamily="@font/varelaround_regular"
                     android:text="Payment methods"
                     android:textColor="@color/black"
                     android:textSize="18sp"
@@ -205,7 +205,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
-                android:fontFamily="@font/allfont_medium"
+                android:fontFamily="@font/robotobold"
                 android:backgroundTint="#6200EE"
                 android:text="Order" />
         </LinearLayout>

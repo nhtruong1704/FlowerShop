@@ -13,7 +13,7 @@
             android:theme="@style/search"
             android:layout_width="wrap_content"
             android:hint="Search"
-            android:fontFamily="@font/poppinregular"
+            android:fontFamily="@font/varelaround_regular"
             android:layout_marginLeft="10dp"
             android:imeOptions="actionSearch"
             android:id="@+id/edtsearch"
@@ -69,7 +69,7 @@
             android:textColor="#03041d"
             android:id="@+id/txtslogan"
             android:layout_marginLeft="10dp"
-            android:fontFamily="@font/poppinsbold"/>
+            android:fontFamily="@font/robotobold"/>
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/rcvmonan"
