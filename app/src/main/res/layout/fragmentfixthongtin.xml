@@ -3,14 +3,14 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="#00BCD4"
+    android:background="#03DAC6"
     android:orientation="vertical">
 
     <RelativeLayout
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="122dp"
-        android:background="#00BCD4">
+        android:background="#018786">
 
         <TextView
             android:id="@+id/toolbar_title"
@@ -78,7 +78,7 @@
             android:layout_height="120dp"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="130dp"
-            android:src="@drawable/anh_avatar_trang_nen_hong"
+            android:src="@drawable/user"
             app:civ_border_color="#fff"
             app:civ_border_width="5dp" />
     </FrameLayout>

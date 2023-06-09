@@ -64,7 +64,7 @@
                             android:lines="2"
                             android:maxLines="2"
                             android:text="Flower name"
-                            android:textColor="@color/Xanhbaemin"
+                            android:textColor="#3700B3"
                             android:textSize="18sp"
                             android:textStyle="bold" />
 

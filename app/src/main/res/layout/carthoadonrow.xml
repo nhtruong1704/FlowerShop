@@ -65,7 +65,7 @@
                             android:maxLines="2"
                             android:textStyle="bold"
                             android:text="Flower name"
-                           android:textColor="@color/Xanhbaemin"
+                           android:textColor="#3700B3"
                             android:textSize="13sp" />
 
                         <TextView

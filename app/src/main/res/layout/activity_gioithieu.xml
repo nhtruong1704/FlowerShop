@@ -24,10 +24,10 @@
         android:layout_marginEnd="32dp"
         android:layout_marginRight="32dp"
         android:layout_marginBottom="16dp"
-        android:backgroundTint="#fff"
+        android:backgroundTint="#03DAC6"
         android:drawableTint="@color/Xanhbaemin"
         android:text="Continue"
-        android:textColor="@color/Xanhbaemin"
+        android:textColor="#ffffff"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 

@@ -77,7 +77,7 @@
             android:layout_height="120dp"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="130dp"
-            android:src="@drawable/anh_avatar_trang_nen_hong"
+            android:src="@drawable/user"
             app:civ_border_color="#fff"
             app:civ_border_width="5dp" />
     </FrameLayout>

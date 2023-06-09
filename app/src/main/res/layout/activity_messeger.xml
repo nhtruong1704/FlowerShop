@@ -16,7 +16,7 @@
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/Xanhbaemin"
+            android:background="#6200EE"
             android:theme="@style/Base.ThemeOverlay.AppCompat.Dark.ActionBar"
             app:popupTheme="@style/MenuStyle">
 
@@ -75,7 +75,7 @@
             android:layout_alignParentRight="true"
             android:background="@drawable/ic_send_black_24dp"
             android:onClick="sendMess"
-            android:backgroundTint="@color/Xanhbaemin"
+            android:backgroundTint="#03DAC6"
             tools:ignore="OnClick" />
 
     </RelativeLayout>

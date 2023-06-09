@@ -12,11 +12,12 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         >
+
         <ImageView
-            android:layout_gravity="center"
             android:layout_width="500dp"
             android:layout_height="380dp"
-            android:src="@drawable/meonauan"/>
+            android:layout_gravity="center"
+            android:src="@drawable/meonauan" />
 
         <TextView
             android:layout_gravity="center"

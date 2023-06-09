@@ -27,7 +27,7 @@
                 android:layout_height="60dp"
                 android:layout_marginTop="15dp"
                 android:layout_marginRight="10dp"
-                android:src="@drawable/anh_avatar_trang_nen_hong"
+                android:src="@drawable/user"
                 app:civ_border_color="#6C7136"
                 app:civ_border_width="2dp" />
 

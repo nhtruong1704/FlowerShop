@@ -206,7 +206,7 @@
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
                 android:fontFamily="@font/allfont_medium"
-                android:backgroundTint="#00BCD4"
+                android:backgroundTint="#6200EE"
                 android:text="Order" />
         </LinearLayout>
 

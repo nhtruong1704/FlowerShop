@@ -15,42 +15,42 @@
         <!-- Customize your theme here. -->
     </style>
     <style name="search" parent="Theme.MaterialComponents.Light.NoActionBar">
-        <item name="colorSecondary">#666666</item>
+        <item name="colorSecondary">#03DAC6</item>
     </style>
     <style name="Theme.Food.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>
     <style name="floatingbutton">
-        <item name="colorPrimary">#00BCD4</item>
-        <item name="colorPrimaryVariant">@color/purple_700</item>
-        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimary">#6200EE</item>
+        <item name="colorPrimaryVariant">#3700B3</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
         <!-- Secondary brand color. -->
-        <item name="colorSecondary">#00BCD4</item>
-        <item name="colorSecondaryVariant">@color/teal_700</item>
-        <item name="colorOnSecondary">@color/white</item>
+        <item name="colorSecondary">#03DAC6</item>
+        <item name="colorSecondaryVariant">#018786</item>
+        <item name="colorOnSecondary">#000000</item>
     </style>
     <style name="Login" parent="Theme.MaterialComponents.Light.NoActionBar">
-        <item name="colorPrimary">#000</item>
+        <item name="colorPrimary">#6200EE</item>
         <item name="windowNoTitle">true</item>
     </style>
     <style name="foating" parent="Theme.MaterialComponents.Light.NoActionBar">
-        <item name="colorPrimary">@color/Xanhbaemin</item>
-        <item name="colorPrimaryVariant">@color/Xanhbaemin</item>
-        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimary">#018786</item>
+        <item name="colorPrimaryVariant">#018786</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
         <!-- Secondary brand color. -->
-        <item name="colorSecondary">#D3D3D3</item>
-        <item name="colorSecondaryVariant">@color/teal_700</item>
-        <item name="colorOnSecondary">@color/black</item>
+        <item name="colorSecondary">#03DAC6</item>
+        <item name="colorSecondaryVariant">#018786</item>
+        <item name="colorOnSecondary">#000000</item>
     </style>
     <style name="clear" parent="Theme.MaterialComponents.Light.NoActionBar">
-        <item name="colorPrimary">#00BCD4</item>
-        <item name="colorPrimaryVariant">@color/Xanhbaemin</item>
-        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimary">#6200EE</item>
+        <item name="colorPrimaryVariant">#3700B3</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
         <!-- Secondary brand color. -->
-        <item name="colorSecondary">#D3D3D3</item>
-        <item name="colorSecondaryVariant">@color/teal_700</item>
-        <item name="colorOnSecondary">@color/black</item>
+        <item name="colorSecondary">#03DAC6</item>
+        <item name="colorSecondaryVariant">#018786</item>
+        <item name="colorOnSecondary">#000000</item>
     </style>
 
     <style name="Home.Text.SectionTitle" parent="Widget.MaterialComponents.TextView">
@@ -68,11 +68,11 @@
         <item name="android:textStyle">bold</item>
     </style>
     <style name="texttitile">
-        <item name="colorPrimary">#fff</item>
-        <item name="colorPrimaryVariant">#fff</item>
+        <item name="colorPrimary">#6200EE</item>
+        <item name="colorPrimaryVariant">#3700B3</item>
     </style>
     <style name="MenuStyle" parent="Theme.AppCompat.Light">
-        <item name="android:background">@color/Xanhbaemin</item>
+        <item name="android:background">#FFFFFF</item>
     </style>
     <style name="buttongestater" parent="Theme.MaterialComponents.Light.NoActionBar">
         <item name="android:background">@drawable/btn_gradient_style</item>
@@ -86,15 +86,15 @@
         <item name="android:layout_height">40dp</item>
     </style>
     <style name="MyEditText">
-        <item name="colorControlNormal">@color/Xanhbaemin</item>
-        <item name="colorControlActivated">@color/Xanhbaemin</item>
-        <item name="colorControlHighlight">@color/Xanhbaemin</item>
+        <item name="colorControlNormal">#6200EE</item>
+        <item name="colorControlActivated">#6200EE</item>
+        <item name="colorControlHighlight">#6200EE</item>
     </style>
     <style name="common_button">
         <item name="android:layout_width">250dp</item>
         <item name="android:layout_height">50dp</item>
-        <item name="android:background">@color/Xanhbaemin</item>
-        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:background">#6200EE</item>
+        <item name="android:textColor">#FFFFFF</item>
         <item name="android:textSize">20dp</item>
         <item name="android:textStyle">bold</item>
 
