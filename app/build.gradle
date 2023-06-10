@@ -4,14 +4,14 @@ plugins {
 }
 
 android {
-    compileSdkVersion 32
+    compileSdkVersion 31
     buildToolsVersion "29.0.3"
 
     defaultConfig {
         applicationId "com.example.flower"
         minSdkVersion 19
         multiDexEnabled true
-        targetSdkVersion 32
+        targetSdkVersion 31
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
