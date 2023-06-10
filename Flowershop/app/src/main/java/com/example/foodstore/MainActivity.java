@@ -1,4 +1,4 @@
-package com.example.flowerstore;
+package com.example.flower;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.RequiresApi;
@@ -14,9 +14,9 @@ import android.os.Bundle;
 import android.view.MenuItem;
 import android.widget.TextView;
 
-import com.example.flowerstore.fragment.FragmentdsDonDatHang;
-import com.example.flowerstore.fragment.Fragmentcategory;
-import com.example.flowerstore.fragment.Fragmentproflie;
+import com.example.flower.fragment.FragmentdsDonDatHang;
+import com.example.flower.fragment.Fragmentcategory;
+import com.example.flower.fragment.Fragmentproflie;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class MainActivity extends AppCompatActivity {

@@ -1,4 +1,4 @@
-package com.example.flowerstore.model;
+package com.example.flower.model;
 
 public class Food {
     private String idfood;

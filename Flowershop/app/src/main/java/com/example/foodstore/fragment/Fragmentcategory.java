@@ -1,4 +1,4 @@
-package com.example.flowerstore.fragment;
+package com.example.flower.fragment;
 
 import android.app.AlertDialog;
 import android.content.DialogInterface;
@@ -18,13 +18,13 @@ import androidx.recyclerview.widget.ItemTouchHelper;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.flowerstore.R;
-import com.example.flowerstore.adapter.FoodAdapter;
-import com.example.flowerstore.callback.Foodcallback;
-import com.example.flowerstore.daofirebase.DaoFood;
-import com.example.flowerstore.dialog.BottomSheef_Add_Food;
-import com.example.flowerstore.dialog.BottomSheef_Update_Food;
-import com.example.flowerstore.model.Food;
+import com.example.flower.R;
+import com.example.flower.adapter.FoodAdapter;
+import com.example.flower.callback.Foodcallback;
+import com.example.flower.daofirebase.DaoFood;
+import com.example.flower.dialog.BottomSheef_Add_Food;
+import com.example.flower.dialog.BottomSheef_Update_Food;
+import com.example.flower.model.Food;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
@@ -35,8 +35,8 @@ import java.util.ArrayList;
 
 import it.xabaras.android.recyclerview.swipedecorator.RecyclerViewSwipeDecorator;
 
-import static com.example.flowerstore.MainActivity.idstore;
-import static com.example.flowerstore.MainActivity.toolbar;
+import static com.example.flower.MainActivity.idstore;
+import static com.example.flower.MainActivity.toolbar;
 
 public class Fragmentcategory extends Fragment {
     public static RecyclerView rcvcategory;

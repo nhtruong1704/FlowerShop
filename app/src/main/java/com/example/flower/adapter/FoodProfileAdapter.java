@@ -58,7 +58,7 @@ public class FoodProfileAdapter extends RecyclerView.Adapter<FoodProfileAdapter.
         Food categories = categoryList.get(position);
         holder.title.setText(categories.getNamefood());
         holder.txtdiachi.setText(categories.getDiachi());
-        holder.txtgia.setText(String.valueOf(decimalFormat.format(categories.getGia())+" VNĐ"));
+        holder.txtgia.setText(String.valueOf(decimalFormat.format(categories.getGia())+" USD"));
             Picasso.get()
                     .load(categories.getImage())
                     .into(holder.imageView, new Callback() {
@@ -82,7 +82,7 @@ public class FoodProfileAdapter extends RecyclerView.Adapter<FoodProfileAdapter.
                 Intent intent = new Intent(context, FoodProfileActivity.class);
                 intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                 intent.putExtra("img", categories.getImage());
-                intent.putExtra("gia", decimalFormat.format(categories.getGia())+"\t VNĐ");
+                intent.putExtra("gia", decimalFormat.format(categories.getGia())+"\t USD");
                 intent.putExtra("namefood", categories.getNamefood());
                 intent.putExtra("idfood","Id: "+categories.getIdfood());
                 intent.putExtra("idstore",categories.getIdstore());

@@ -48,15 +48,15 @@ public class FragmentSignup extends Fragment {
                 String pass = passsignup.getText().toString().trim();
                 String nhappass = nhaplaipass.getText().toString().trim();
                 if(email.isEmpty() || pass.isEmpty() || nhappass.isEmpty()){
-                    Toast.makeText(getActivity(), "Vui lòng nhập đầy đủ các trường", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getActivity(), "Please enter all fields", Toast.LENGTH_SHORT).show();
                 }else {
                     if (
                     !email.matches("^[a-zA-Z][a-z0-9_\\.]{4,32}@[a-z0-9]{2,}(\\.[a-z0-9]{2,4}){1,2}$")){
-                        Toast.makeText(getActivity(), "Email Không Hợp Lệ", Toast.LENGTH_SHORT).show();
-                    }else if (pass.length()<6){ Toast.makeText(getActivity(), "Mật khẩu phải có ít nhất 6 ký tự!",
+                        Toast.makeText(getActivity(), "Invalid email", Toast.LENGTH_SHORT).show();
+                    }else if (pass.length()<6){ Toast.makeText(getActivity(), "Passwords must be at least 6 characters",
                             Toast.LENGTH_SHORT).show();}
                     else if (!(pass.matches(nhappass))){
-                        nhaplaipass.setError("Mật Khẩu Không Trùng Khớp");
+                        nhaplaipass.setError("Password Do Not Match");
                     }else {
                         progressBar.setVisibility(View.VISIBLE);
                         //create user
@@ -69,14 +69,14 @@ public class FragmentSignup extends Fragment {
                                         // the auth state listener will be notified and logic to handle the
                                         // signed in user can be handled in the listener.
                                         if (!task.isSuccessful()) {
-                                            Toast.makeText(getActivity(), "Sign Up Thất Bại." ,
+                                            Toast.makeText(getActivity(), "Sign Up Failed" ,
                                                     Toast.LENGTH_SHORT).show();
                                         } else {
 
                                             daoUser = new DaoUser(getActivity());
                                             User user = new User(email,pass,null,null,null,null,auth.getUid());
                                             daoUser.insert(user);
-                                            Toast.makeText(getActivity(), "Sign Up Thành Công.",
+                                            Toast.makeText(getActivity(), "Sign Up Successfully",
                                                     Toast.LENGTH_SHORT).show();
                                         }
                                     }

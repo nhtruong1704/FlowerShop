@@ -105,7 +105,7 @@ public class ThanhToanActivity extends AppCompatActivity {
         decimalFormat.applyPattern("#,###,###,###");
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        titletoolbar.setText("Thanh toán");
+        titletoolbar.setText("Pay");
         titletoolbar.setTextSize(30);
         getSupportActionBar().setDisplayShowTitleEnabled(false);
         gson = new Gson();
@@ -138,7 +138,7 @@ public class ThanhToanActivity extends AppCompatActivity {
                 tongtien = tongtien+order.getSoluongmua() * order.getFood().getGia();
             }
 
-            txttientong.setText(decimalFormat.format(tongtien)+" VNĐ");
+            txttientong.setText(decimalFormat.format(tongtien)+" USD");
             btnthanhtoan.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -146,7 +146,7 @@ public class ThanhToanActivity extends AppCompatActivity {
                     for (HoaDon hdct: hdctArrayList){
 
                         daoHDCT.insert(hdct);
-                        sendNotifiaction(namestore,nameuser,"Xác nhận đơn hàng",user.getUid(),hdct.getIdhct());
+                        sendNotifiaction(namestore,nameuser,"Order confirmation",user.getUid(),hdct.getIdhct());
                     }
                     localstorage.deleteCart();
                     rcvcart.setVisibility(View.GONE);
@@ -211,8 +211,8 @@ public class ThanhToanActivity extends AppCompatActivity {
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                 for (DataSnapshot snapshot : dataSnapshot.getChildren()){
                     Token token = snapshot.getValue(Token.class);
-                    Toast.makeText(ThanhToanActivity.this, "Đã gửi"+receiver, Toast.LENGTH_SHORT).show();
-                    DataHoaDon data = new DataHoaDon(user.getUid(), R.mipmap.ic_launcher_round, username+": "+message, "Đơn Đặt Hàng",
+                    Toast.makeText(ThanhToanActivity.this, "Sent"+receiver, Toast.LENGTH_SHORT).show();
+                    DataHoaDon data = new DataHoaDon(user.getUid(), R.mipmap.ic_launcher_round, username+": "+message, "The Order",
                             tokensStore,listhdct);
                     SenderHoaDon sender = new SenderHoaDon(data,token.getToken());
                     try {

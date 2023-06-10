@@ -1,4 +1,4 @@
-package com.example.flowerstore.notification;
+package com.example.flower.notification;
 
 import android.app.Notification;
 import android.app.NotificationManager;
@@ -14,8 +14,8 @@ import android.util.Log;
 
 import androidx.core.app.NotificationCompat;
 
-import com.example.flowerstore.GiaoDich;
-import com.example.flowerstore.R;
+import com.example.flower.GiaoDich;
+import com.example.flower.R;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.messaging.FirebaseMessagingService;

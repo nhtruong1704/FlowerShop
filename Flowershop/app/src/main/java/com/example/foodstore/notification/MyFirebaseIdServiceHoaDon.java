@@ -1,6 +1,6 @@
-package com.example.flowerstore.notification;
+package com.example.flower.notification;
 
-import com.example.flowerstore.model.Token;
+import com.example.flower.model.Token;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DatabaseReference;

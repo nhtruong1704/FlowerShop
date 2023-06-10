@@ -1,4 +1,4 @@
-package com.example.flowerstore.fragment;
+package com.example.flower.fragment;
 
 import android.content.Intent;
 import android.graphics.Bitmap;
@@ -19,14 +19,14 @@ import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.flowerstore.R;
+import com.example.flower.R;
 
 
-import com.example.flowerstore.callback.Storecallback;
-import com.example.flowerstore.daofirebase.DaoStore;
-import com.example.flowerstore.model.Food;
-import com.example.flowerstore.model.Store;
-import com.example.flowerstore.model.User;
+import com.example.flower.callback.Storecallback;
+import com.example.flower.daofirebase.DaoStore;
+import com.example.flower.model.Food;
+import com.example.flower.model.Store;
+import com.example.flower.model.User;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.auth.FirebaseAuth;
@@ -48,8 +48,8 @@ import java.util.UUID;
 import de.hdodenhof.circleimageview.CircleImageView;
 
 import static android.app.Activity.RESULT_OK;
-import static com.example.flowerstore.MainActivity.bnv;
-import static com.example.flowerstore.MainActivity.toolbar;
+import static com.example.flower.MainActivity.bnv;
+import static com.example.flower.MainActivity.toolbar;
 
 
 public class FragmentEditProfile extends Fragment {

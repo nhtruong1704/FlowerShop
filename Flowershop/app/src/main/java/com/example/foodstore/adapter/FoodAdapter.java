@@ -1,4 +1,4 @@
-package com.example.flowerstore.adapter;
+package com.example.flower.adapter;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -19,9 +19,9 @@ import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 
 
-import com.example.flowerstore.FoodchitietActivity;
-import com.example.flowerstore.R;
-import com.example.flowerstore.model.Food;
+import com.example.flower.FoodchitietActivity;
+import com.example.flower.R;
+import com.example.flower.model.Food;
 import com.squareup.picasso.Callback;
 import com.squareup.picasso.Picasso;
 

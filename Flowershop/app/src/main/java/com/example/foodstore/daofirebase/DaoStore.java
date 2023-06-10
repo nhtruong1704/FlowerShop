@@ -1,4 +1,4 @@
-package com.example.flowerstore.daofirebase;
+package com.example.flower.daofirebase;
 
 import android.content.Context;
 import android.widget.Toast;
@@ -6,8 +6,8 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 
 
-import com.example.flowerstore.callback.Storecallback;
-import com.example.flowerstore.model.Store;
+import com.example.flower.callback.Storecallback;
+import com.example.flower.model.Store;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.database.DataSnapshot;

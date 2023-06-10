@@ -1,4 +1,4 @@
-package com.example.flowerstore.fragment;
+package com.example.flower.fragment;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -12,10 +12,10 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
-import com.example.flowerstore.R;
-import com.example.flowerstore.callback.Storecallback;
-import com.example.flowerstore.daofirebase.DaoStore;
-import com.example.flowerstore.model.Store;
+import com.example.flower.R;
+import com.example.flower.callback.Storecallback;
+import com.example.flower.daofirebase.DaoStore;
+import com.example.flower.model.Store;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.squareup.picasso.Picasso;
@@ -24,7 +24,7 @@ import java.util.ArrayList;
 
 import de.hdodenhof.circleimageview.CircleImageView;
 
-import static com.example.flowerstore.MainActivity.toolbar;
+import static com.example.flower.MainActivity.toolbar;
 
 
 public class Fragmentproflie extends Fragment {

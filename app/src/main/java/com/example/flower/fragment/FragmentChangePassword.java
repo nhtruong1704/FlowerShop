@@ -73,11 +73,11 @@ public class FragmentChangePassword extends Fragment {
             });
 
             if (edtoldpass.getText().toString().trim().isEmpty() || edtpassnew.getText().toString().trim().isEmpty() || edtxacnhanpass.getText().toString().trim().isEmpty()) {
-                Toast.makeText(getActivity(), "Vui Lòng Nhập Đầy Đủ 3 Trường", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getActivity(), "Please fill in all fields", Toast.LENGTH_SHORT).show();
             }
            else if (edtoldpass.getText().toString().trim().length()<6 ||
                     edtpassnew.getText().toString().trim().length()<6 || edtxacnhanpass.getText().toString().trim().length()<6){
-                Toast.makeText(getActivity(), "Mật khẩu phải có ít nhất 6 ký tự!",
+                Toast.makeText(getActivity(), "Passwords must be at least 6 characters",
                     Toast.LENGTH_SHORT).show();}
             else {
                 for (int i =0;i<dataUser.size();i++){
@@ -85,7 +85,7 @@ public class FragmentChangePassword extends Fragment {
 
 
                     if (!(edtoldpass.getText().toString().trim().equalsIgnoreCase(dataUser.get(i).getPassword()))){
-                        Toast.makeText(getActivity(), "Password cũ bạn nhập không đúng", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(getActivity(), "The old password you entered is incorrect", Toast.LENGTH_SHORT).show();
                     }else {
                         pass = dataUser.get(i).getPassword();
                         name = dataUser.get(i).getName();
@@ -95,10 +95,10 @@ public class FragmentChangePassword extends Fragment {
                         anh = dataUser.get(i).getImage();
 
                         if (edtpassnew.getText().toString().trim().equalsIgnoreCase(edtoldpass.getText().toString().trim())){
-                            Toast.makeText(getActivity(), "Password cũ với password mới không được trùng", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(getActivity(), "Old password and new password cannot be the same", Toast.LENGTH_SHORT).show();
                         }else {
                             if (!(edtxacnhanpass.getText().toString().equalsIgnoreCase(edtpassnew.getText().toString()))) {
-                                Toast.makeText(getActivity(), "Password Xác nhận phải trùng Với Password mới", Toast.LENGTH_SHORT).show();
+                                Toast.makeText(getActivity(), "Confirm Password must match the new Password", Toast.LENGTH_SHORT).show();
                             } else {
 
                                 User user = new User(mail,edtpassnew.getText().toString().trim(),name,phone,anh,diachi,firebaseUser.getUid());

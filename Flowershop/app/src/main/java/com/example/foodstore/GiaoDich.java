@@ -1,4 +1,4 @@
-package com.example.flowerstore;
+package com.example.flower;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.RequiresApi;
@@ -21,11 +21,11 @@ import com.android.volley.RequestQueue;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonObjectRequest;
 import com.android.volley.toolbox.Volley;
-import com.example.flowerstore.model.HoaDon;
-import com.example.flowerstore.model.Store;
-import com.example.flowerstore.model.Token;
-import com.example.flowerstore.notification.DataHoaDon;
-import com.example.flowerstore.notification.SenderHoaDon;
+import com.example.flower.model.HoaDon;
+import com.example.flower.model.Store;
+import com.example.flower.model.Token;
+import com.example.flower.notification.DataHoaDon;
+import com.example.flower.notification.SenderHoaDon;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DataSnapshot;

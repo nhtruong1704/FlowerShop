@@ -1,4 +1,4 @@
-package com.example.flowerstore.adapter;
+package com.example.flower.adapter;
 
 import android.app.Dialog;
 import android.content.Context;
@@ -17,14 +17,14 @@ import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.flowerstore.R;
+import com.example.flower.R;
 
-import com.example.flowerstore.callback.Storecallback;
-import com.example.flowerstore.daofirebase.DaoStore;
-import com.example.flowerstore.model.HoaDon;
+import com.example.flower.callback.Storecallback;
+import com.example.flower.daofirebase.DaoStore;
+import com.example.flower.model.HoaDon;
 
-import com.example.flowerstore.model.Order;
-import com.example.flowerstore.model.Store;
+import com.example.flower.model.Order;
+import com.example.flower.model.Store;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DataSnapshot;

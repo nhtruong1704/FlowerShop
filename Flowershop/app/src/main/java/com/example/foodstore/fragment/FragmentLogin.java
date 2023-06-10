@@ -1,4 +1,4 @@
-package com.example.flowerstore.fragment;
+package com.example.flower.fragment;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -20,11 +20,11 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.viewpager.widget.ViewPager;
 
-import com.example.flowerstore.MainActivity;
-import com.example.flowerstore.R;
-import com.example.flowerstore.callback.Storecallback;
-import com.example.flowerstore.daofirebase.DaoStore;
-import com.example.flowerstore.model.Store;
+import com.example.flower.MainActivity;
+import com.example.flower.R;
+import com.example.flower.callback.Storecallback;
+import com.example.flower.daofirebase.DaoStore;
+import com.example.flower.model.Store;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.android.material.bottomsheet.BottomSheetBehavior;

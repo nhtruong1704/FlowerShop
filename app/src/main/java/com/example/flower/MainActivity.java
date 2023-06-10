@@ -66,7 +66,7 @@ public class MainActivity extends AppCompatActivity {
         getWindow().setStatusBarColor(ContextCompat.getColor(MainActivity.this, R.color.Xanhbaemin));
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        titletoolbar.setText("Thực đơn hôm nay");
+        titletoolbar.setText("Best seller");
         titletoolbar.setTextSize(30);
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M)
         {
@@ -132,17 +132,17 @@ public class MainActivity extends AppCompatActivity {
                 switch (item.getId()) {
                     case 1:
                         toolbar.setVisibility(View.VISIBLE);
-                        titletoolbar.setText("Thực đơn hôm nay");
+                        titletoolbar.setText("Best seller");
                         fragment = new FragmentHome();
                         break;
                     case 2:
                         toolbar.setVisibility(View.VISIBLE);
-                        titletoolbar.setText("Giỏ Hàng");
+                        titletoolbar.setText("Cart");
                         fragment = new FragmentCart();
                         break;
                     case 3:
                         toolbar.setVisibility(View.VISIBLE);
-                        titletoolbar.setText("Yêu Thích");
+                        titletoolbar.setText("Favourite");
                         fragment = new FragmentFavorite();
                         break;
                     case 4:

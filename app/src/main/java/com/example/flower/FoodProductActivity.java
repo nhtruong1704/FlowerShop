@@ -36,7 +36,7 @@ public class FoodProductActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowTitleEnabled(false);
-        titletoolbar.setText("Chi tiết món ăn");
+        titletoolbar.setText("Flower details");
         titletoolbar.setTextSize(30);
         daoFood = new DaoFood(FoodProductActivity.this);
         foodArrayList = new ArrayList<>();

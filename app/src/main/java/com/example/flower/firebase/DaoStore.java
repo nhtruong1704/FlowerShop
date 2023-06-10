@@ -58,12 +58,12 @@ public class DaoStore {
         mRef.child(key).setValue(item).addOnSuccessListener(new OnSuccessListener<Void>() {
             @Override
             public void onSuccess(Void aVoid) {
-                Toast.makeText(context, "Đăng ký thành công !", Toast.LENGTH_SHORT).show();
+                Toast.makeText(context, "Sign Up Successfully", Toast.LENGTH_SHORT).show();
             }
         }).addOnFailureListener(new OnFailureListener() {
             @Override
             public void onFailure(@NonNull Exception e) {
-                Toast.makeText(context, "Đăng ký thất bại !", Toast.LENGTH_SHORT).show();
+                Toast.makeText(context, "Sign up failed", Toast.LENGTH_SHORT).show();
             }
         });
     }
@@ -75,7 +75,7 @@ public class DaoStore {
                     if(dataSnapshot.child("email").getValue(String.class).equalsIgnoreCase(item.getEmail())){
                         key=dataSnapshot.getKey();
                         mRef.child(key).setValue(item);
-                        Toast.makeText(context, "Update Thành Công", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(context, "Update Successfully", Toast.LENGTH_SHORT).show();
 
 
                     }
@@ -101,7 +101,7 @@ public class DaoStore {
                         mRef.child(key).removeValue().addOnSuccessListener(new OnSuccessListener<Void>() {
                             @Override
                             public void onSuccess(Void aVoid) {
-                                Toast.makeText(context, "Delete Thành Công", Toast.LENGTH_SHORT).show();
+                                Toast.makeText(context, "Delete Successfully", Toast.LENGTH_SHORT).show();
                             }
                         }).addOnFailureListener(new OnFailureListener() {
                             @Override

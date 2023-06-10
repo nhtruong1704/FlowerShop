@@ -1,4 +1,4 @@
-package com.example.flowerstore.fragment;
+package com.example.flower.fragment;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -12,12 +12,12 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 
-import com.example.flowerstore.R;
-import com.example.flowerstore.adapter.XacnhanAdapter;
-import com.example.flowerstore.callback.HoaDoncallback;
-import com.example.flowerstore.daofirebase.DaoHoaDon;
-import com.example.flowerstore.model.HoaDon;
-import com.example.flowerstore.model.Order;
+import com.example.flower.R;
+import com.example.flower.adapter.XacnhanAdapter;
+import com.example.flower.callback.HoaDoncallback;
+import com.example.flower.daofirebase.DaoHoaDon;
+import com.example.flower.model.HoaDon;
+import com.example.flower.model.Order;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 

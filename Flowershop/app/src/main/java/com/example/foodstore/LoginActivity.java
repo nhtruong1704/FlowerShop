@@ -1,4 +1,4 @@
-package com.example.flowerstore;
+package com.example.flower;
 
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
@@ -11,9 +11,9 @@ import android.os.Bundle;
 import android.view.WindowManager;
 import android.widget.TableLayout;
 
-import com.example.flowerstore.adapter.Tabadapter;
-import com.example.flowerstore.fragment.FragmentLogin;
-import com.example.flowerstore.fragment.FragmentSignup;
+import com.example.flower.adapter.Tabadapter;
+import com.example.flower.fragment.FragmentLogin;
+import com.example.flower.fragment.FragmentSignup;
 import com.google.android.material.tabs.TabLayout;
 
 public class LoginActivity extends AppCompatActivity {

@@ -67,7 +67,7 @@ public class FragmentHome extends Fragment {
         rcvhome.setAdapter(categoryAdapter);
         Date currentTime = Calendar.getInstance().getTime();
         if (currentTime.getTime() < 10) {
-            txtslogan.setText("Khởi động ngày mới với món ngon nào !");
+            txtslogan.setText("Flowers");
             foodArrayList = new ArrayList<>();
             foodAdapter = new FoodAdapter(foodArrayList,getActivity());
             GridLayoutManager gridLayoutManager = new GridLayoutManager(getActivity(),2);
@@ -93,7 +93,7 @@ public class FragmentHome extends Fragment {
                 }
             });
         } else if (currentTime.getTime() >= 10 && currentTime.getTime() <= 15 ){
-            txtslogan.setText("Nạp năng lượng cho buổi trưa nhé !");
+            txtslogan.setText("Flowers");
             foodArrayList = new ArrayList<>();
             foodAdapter = new FoodAdapter(foodArrayList,getActivity());
             GridLayoutManager gridLayoutManager = new GridLayoutManager(getActivity(),2);
@@ -119,7 +119,7 @@ public class FragmentHome extends Fragment {
                 }
             });
         }else if (currentTime.getTime() > 15){
-            txtslogan.setText("Buổi chiều cùng những món ngon nè !");
+            txtslogan.setText("Flowers");
             foodArrayList = new ArrayList<>();
             foodAdapter = new FoodAdapter(foodArrayList,getActivity());
             GridLayoutManager gridLayoutManager = new GridLayoutManager(getActivity(),2);

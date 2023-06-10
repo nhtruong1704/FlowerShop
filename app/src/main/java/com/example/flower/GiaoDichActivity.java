@@ -49,7 +49,7 @@ public class GiaoDichActivity extends AppCompatActivity {
         rcvxacnhan = findViewById(R.id.rcvxacnhan);
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(false);
-        titletoolbar.setText("Dặt Hàng");
+        titletoolbar.setText("Order");
         titletoolbar.setTextSize(30);
         hdctArrayList = new ArrayList<>();
         LinearLayoutManager linearLayoutManager = new LinearLayoutManager(this,RecyclerView.VERTICAL,false);

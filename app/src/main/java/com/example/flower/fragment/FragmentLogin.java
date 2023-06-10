@@ -74,9 +74,9 @@ public class FragmentLogin extends Fragment {
         final String ussername = email.getText().toString().trim();
         final String pass1 = pass.getText().toString().trim();
          if (ussername.isEmpty() || pass1.isEmpty()) {
-            Toast.makeText(getActivity(), "Vui Lòng Nhập Đầy Đủ 2 Trường", Toast.LENGTH_SHORT).show();
+            Toast.makeText(getActivity(), "Please fill in all fields", Toast.LENGTH_SHORT).show();
         }  else if (!ussername.matches("^[a-zA-Z][a-z0-9_\\.]{4,32}@[a-z0-9]{2,}(\\.[a-z0-9]{2,4}){1,2}$")) {
-            Toast.makeText(getActivity(), "Email Không Hợp Lệ", Toast.LENGTH_SHORT).show();
+            Toast.makeText(getActivity(), "Invalid email", Toast.LENGTH_SHORT).show();
         }else {
             daoUser = new DaoUser(getContext());
             datastore = new ArrayList<>();
@@ -99,17 +99,17 @@ public class FragmentLogin extends Fragment {
                     if (task.isSuccessful()) {
                         for (int i = 0; i < datastore.size(); i++) {
                             if (datastore.get(i).getEmail().equalsIgnoreCase(email.getText().toString()) && datastore.get(i).getPassword().equalsIgnoreCase(pass.getText().toString())) {
-                                Toast.makeText(getActivity(), "Login Thành Công", Toast.LENGTH_SHORT).show();
+                                Toast.makeText(getActivity(), "Login Successfully", Toast.LENGTH_SHORT).show();
                                 Intent is = new Intent(getActivity(),MainActivity.class);
                                 startActivity(is);
                                 break;
                             }
                             else {
-                                Toast.makeText(getActivity(), "Login Thất Bại", Toast.LENGTH_SHORT).show();
+                                Toast.makeText(getActivity(), "Login Failed", Toast.LENGTH_SHORT).show();
                             }
                         }
                     } else {
-                        Toast.makeText(getActivity(), "Login Thất Bại", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(getActivity(), "Login Failed", Toast.LENGTH_SHORT).show();
 
 //                        Boolean sure = false;
 //                        for (int i = 0; i < datastore.size(); i++) {

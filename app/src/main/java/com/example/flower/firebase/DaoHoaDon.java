@@ -57,12 +57,12 @@ public class DaoHoaDon {
         mRef.child(key).setValue(item).addOnSuccessListener(new OnSuccessListener<Void>() {
             @Override
             public void onSuccess(Void aVoid) {
-                Toast.makeText(context, "Đặt hàng thành công !", Toast.LENGTH_SHORT).show();
+                Toast.makeText(context, "Order successfully", Toast.LENGTH_SHORT).show();
             }
         }).addOnFailureListener(new OnFailureListener() {
             @Override
             public void onFailure(@NonNull Exception e) {
-                Toast.makeText(context, "Đặt hàng thất bại !", Toast.LENGTH_SHORT).show();
+                Toast.makeText(context, "Order successfully", Toast.LENGTH_SHORT).show();
             }
         });
     }
@@ -74,7 +74,7 @@ public class DaoHoaDon {
                     if(dataSnapshot.child("idhct").getValue(String.class).equalsIgnoreCase(item.getIdhct())){
                         key=dataSnapshot.getKey();
                         mRef.child(key).setValue(item);
-                        Toast.makeText(context, "Update Thành Công", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(context, "Update successfully", Toast.LENGTH_SHORT).show();
 
 
                     }
@@ -100,7 +100,7 @@ public class DaoHoaDon {
                         mRef.child(key).removeValue().addOnSuccessListener(new OnSuccessListener<Void>() {
                             @Override
                             public void onSuccess(Void aVoid) {
-                                Toast.makeText(context, "Delete Thành Công", Toast.LENGTH_SHORT).show();
+                                Toast.makeText(context, "Delete successfully", Toast.LENGTH_SHORT).show();
                             }
                         }).addOnFailureListener(new OnFailureListener() {
                             @Override

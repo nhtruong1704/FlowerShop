@@ -1,4 +1,4 @@
-package com.example.flowerstore.fragment;
+package com.example.flower.fragment;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -13,9 +13,9 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
-import com.example.flowerstore.R;
-import com.example.flowerstore.daofirebase.DaoStore;
-import com.example.flowerstore.model.Store;
+import com.example.flower.R;
+import com.example.flower.daofirebase.DaoStore;
+import com.example.flower.model.Store;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;

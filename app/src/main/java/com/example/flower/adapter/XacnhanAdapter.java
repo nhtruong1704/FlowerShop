@@ -77,9 +77,9 @@ public class XacnhanAdapter extends RecyclerView.Adapter<XacnhanAdapter.MyViewHo
         firebaseUser = FirebaseAuth.getInstance().getCurrentUser();
         final HoaDon cart = cartList.get(position);
         if(cart.isCheck()){
-            holder.txtxacnhan.setText("Đang giao hàng");
+            holder.txtxacnhan.setText("Delivery in progress");
         }else{
-            holder.txtxacnhan.setText("Đang giao hàng");
+            holder.txtxacnhan.setText("Delivery in progress");
         }
         holder.txtday.setText(cart.getNgay());
         holder.txttime.setText(cart.getThoigian());
@@ -131,7 +131,7 @@ public class XacnhanAdapter extends RecyclerView.Adapter<XacnhanAdapter.MyViewHo
                                 }
 
 
-                                txttongtien.setText("Tổng Tiền: \t" + decimalFormat.format(tongtien1)+"VNĐ");
+                                txttongtien.setText("Total Amount: \t" + decimalFormat.format(tongtien1)+"USD");
                                 break;
 
                             }

@@ -1,13 +1,13 @@
-package com.example.flowerstore.daofirebase;
+package com.example.flower.daofirebase;
 
 import android.content.Context;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 
-import com.example.flowerstore.callback.Foodcallback;
+import com.example.flower.callback.Foodcallback;
 
-import com.example.flowerstore.model.Food;
+import com.example.flower.model.Food;
 
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;

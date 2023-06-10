@@ -76,7 +76,7 @@ public class FavoriteAdapter extends RecyclerView.Adapter<FavoriteAdapter.MyView
                 Intent intent = new Intent(context, FoodProfileActivity.class);
                 intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                 intent.putExtra("img", categories.getImage());
-                intent.putExtra("gia", decimalFormat.format(categories.getGia())+"\t VNĐ");
+                intent.putExtra("gia", decimalFormat.format(categories.getGia())+"\t USD");
                 intent.putExtra("namefood", categories.getNamefood());
                 intent.putExtra("idfood","Id: "+categories.getIdfood());
                 intent.putExtra("idstore",categories.getIdstore());

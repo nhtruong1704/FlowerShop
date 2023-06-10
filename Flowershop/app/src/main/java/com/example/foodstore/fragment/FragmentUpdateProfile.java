@@ -1,4 +1,4 @@
-package com.example.flowerstore.fragment;
+package com.example.flower.fragment;
 
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -19,12 +19,12 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 
-import com.example.flowerstore.MainActivity;
-import com.example.flowerstore.R;
+import com.example.flower.MainActivity;
+import com.example.flower.R;
 
-import com.example.flowerstore.daofirebase.DaoStore;
+import com.example.flower.daofirebase.DaoStore;
 
-import com.example.flowerstore.model.Store;
+import com.example.flower.model.Store;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment;
@@ -38,7 +38,7 @@ import java.util.UUID;
 import de.hdodenhof.circleimageview.CircleImageView;
 
 import static android.app.Activity.RESULT_OK;
-import static com.example.flowerstore.MainActivity.toolbar;
+import static com.example.flower.MainActivity.toolbar;
 
 public class FragmentUpdateProfile extends BottomSheetDialogFragment {
 

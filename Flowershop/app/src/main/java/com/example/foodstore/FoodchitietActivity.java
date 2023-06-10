@@ -1,4 +1,4 @@
-package com.example.flowerstore;
+package com.example.flower;
 
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
@@ -20,12 +20,12 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.flowerstore.adapter.FoodAdapter;
-import com.example.flowerstore.callback.Foodcallback;
-import com.example.flowerstore.daofirebase.DaoFood;
-import com.example.flowerstore.fragment.Fragmentcategory;
-import com.example.flowerstore.fragment.Fragmentproflie;
-import com.example.flowerstore.model.Food;
+import com.example.flower.adapter.FoodAdapter;
+import com.example.flower.callback.Foodcallback;
+import com.example.flower.daofirebase.DaoFood;
+import com.example.flower.fragment.Fragmentcategory;
+import com.example.flower.fragment.Fragmentproflie;
+import com.example.flower.model.Food;
 import com.google.android.material.appbar.CollapsingToolbarLayout;
 import com.google.firebase.storage.FirebaseStorage;
 import com.squareup.picasso.Picasso;
@@ -35,7 +35,7 @@ import java.text.NumberFormat;
 import java.util.ArrayList;
 import java.util.Locale;
 
-import static com.example.flowerstore.MainActivity.idstore;
+import static com.example.flower.MainActivity.idstore;
 
 public class FoodchitietActivity extends AppCompatActivity {
     TextView tv_detail_rating,tv_detail_release_date,tv_detail_vote_count,txtsoluong,txtdiachi,txtmota,txtstatus,txtmatl;

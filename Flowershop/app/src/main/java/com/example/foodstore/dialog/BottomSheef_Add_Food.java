@@ -1,4 +1,4 @@
-package com.example.flowerstore.dialog;
+package com.example.flower.dialog;
 
 import android.content.Intent;
 import android.graphics.Bitmap;
@@ -20,12 +20,12 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 
-import com.example.flowerstore.R;
-import com.example.flowerstore.callback.Categoriescallback;
-import com.example.flowerstore.daofirebase.DaoCategories;
-import com.example.flowerstore.daofirebase.DaoFood;
-import com.example.flowerstore.model.Categories;
-import com.example.flowerstore.model.Food;
+import com.example.flower.R;
+import com.example.flower.callback.Categoriescallback;
+import com.example.flower.daofirebase.DaoCategories;
+import com.example.flower.daofirebase.DaoFood;
+import com.example.flower.model.Categories;
+import com.example.flower.model.Food;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment;
@@ -40,7 +40,7 @@ import java.util.ArrayList;
 import java.util.UUID;
 
 import static android.app.Activity.RESULT_OK;
-import static com.example.flowerstore.MainActivity.idstore;
+import static com.example.flower.MainActivity.idstore;
 
 public class BottomSheef_Add_Food extends BottomSheetDialogFragment {
     EditText edt_idfood,edt_namefood,edt_gia,edt_soluong,edt_diachi,edt_mota;

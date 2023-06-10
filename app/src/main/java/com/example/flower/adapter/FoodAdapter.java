@@ -144,7 +144,7 @@ public class FoodAdapter extends RecyclerView.Adapter<FoodAdapter.MyViewHolder> 
                                 fvrtref.child(key).child(user.getUid()).removeValue();
                                 fvrt_listRef.child(key).removeValue();
 //                                delete(time);
-                                Toast.makeText(context, "Xóa khỏi yêu thích!", Toast.LENGTH_SHORT).show();
+                                Toast.makeText(context, "Remove from favorites", Toast.LENGTH_SHORT).show();
                                 mProcessLike = false;
                             }else {
 
@@ -156,7 +156,7 @@ public class FoodAdapter extends RecyclerView.Adapter<FoodAdapter.MyViewHolder> 
                                 fvrt_listRef.child(key).setValue(favorite);
                                 mProcessLike = false;
 
-                                Toast.makeText(context, "Thêm vào yêu thích!", Toast.LENGTH_SHORT).show();
+                                Toast.makeText(context, "Add to favorites", Toast.LENGTH_SHORT).show();
                             }
                         }
 
@@ -182,7 +182,7 @@ public class FoodAdapter extends RecyclerView.Adapter<FoodAdapter.MyViewHolder> 
                 Intent intent = new Intent(context, FoodProfileActivity.class);
                 intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                 intent.putExtra("img", categories.getImage());
-                intent.putExtra("gia", decimalFormat.format(categories.getGia()) + "\t VNĐ");
+                intent.putExtra("gia", decimalFormat.format(categories.getGia()) + "\t USD");
                 intent.putExtra("namefood", categories.getNamefood());
                 intent.putExtra("idfood", "Id: " + categories.getIdfood());
                 intent.putExtra("idstore", categories.getIdstore());

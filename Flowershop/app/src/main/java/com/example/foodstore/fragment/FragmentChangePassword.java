@@ -1,4 +1,4 @@
-package com.example.flowerstore.fragment;
+package com.example.flower.fragment;
 
 import android.os.Bundle;
 import android.util.Log;
@@ -14,11 +14,11 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
-import com.example.flowerstore.R;
+import com.example.flower.R;
 
-import com.example.flowerstore.callback.Storecallback;
-import com.example.flowerstore.daofirebase.DaoStore;
-import com.example.flowerstore.model.Store;
+import com.example.flower.callback.Storecallback;
+import com.example.flower.daofirebase.DaoStore;
+import com.example.flower.model.Store;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuth;
@@ -27,8 +27,8 @@ import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
 
-import static com.example.flowerstore.MainActivity.bnv;
-import static com.example.flowerstore.MainActivity.toolbar;
+import static com.example.flower.MainActivity.bnv;
+import static com.example.flower.MainActivity.toolbar;
 
 
 public class FragmentChangePassword extends Fragment {

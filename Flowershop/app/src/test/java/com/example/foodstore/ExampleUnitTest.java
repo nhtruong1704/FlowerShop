@@ -1,4 +1,4 @@
-package com.example.flowerstore;
+package com.example.flower;
 
 import org.junit.Test;
 

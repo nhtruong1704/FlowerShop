@@ -1,5 +1,5 @@
-package com.example.flowerstore.callback;
-import com.example.flowerstore.model.Store;
+package com.example.flower.callback;
+import com.example.flower.model.Store;
 
 import java.util.ArrayList;
 

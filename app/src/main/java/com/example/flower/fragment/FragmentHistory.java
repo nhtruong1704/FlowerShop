@@ -41,7 +41,7 @@ public class FragmentHistory extends Fragment {
 
         viewPager.setAdapter(adapter);
         tabLayout.setupWithViewPager(viewPager);
-        titletoolbar.setText("Lịch Sử Đặt Hàng");
+        titletoolbar.setText("Order History");
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

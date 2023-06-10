@@ -1,4 +1,4 @@
-package com.example.flowerstore.notification;
+package com.example.flower.notification;
 
 import android.annotation.TargetApi;
 import android.app.Notification;
@@ -12,8 +12,8 @@ import android.os.Build;
 
 public class OreoNotification extends ContextWrapper {
 
-    private static final String CHANNEL_ID = "com.example.flowerstore";
-    private static final String CHANNEL_NAME = "foodstore";
+    private static final String CHANNEL_ID = "com.example.flower";
+    private static final String CHANNEL_NAME = "flower";
 
     private NotificationManager notificationManager;
 

@@ -1,4 +1,4 @@
-package com.example.flowerstore.adapter;
+package com.example.flower.adapter;
 
 import android.content.Context;
 import android.util.Log;
@@ -15,8 +15,8 @@ import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 
 
-import com.example.flowerstore.R;
-import com.example.flowerstore.model.Order;
+import com.example.flower.R;
+import com.example.flower.model.Order;
 import com.google.gson.Gson;
 import com.squareup.picasso.Callback;
 import com.squareup.picasso.Picasso;

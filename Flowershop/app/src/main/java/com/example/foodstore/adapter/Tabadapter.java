@@ -1,4 +1,4 @@
-package com.example.flowerstore.adapter;
+package com.example.flower.adapter;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;

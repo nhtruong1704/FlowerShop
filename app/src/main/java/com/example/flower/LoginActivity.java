@@ -40,8 +40,8 @@ public class LoginActivity extends AppCompatActivity {
         }
 
         adapter = new Tabadapter(this.getSupportFragmentManager());
-        adapter.addFragment(new FragmentLogin(), "Đăng nhập");
-        adapter.addFragment(new FragmentSignup(), "Đăng ký");
+        adapter.addFragment(new FragmentLogin(), "Log in");
+        adapter.addFragment(new FragmentSignup(), "Sign up");
         viewPager.setAdapter(adapter);
         tableLayout.setupWithViewPager(viewPager);
 

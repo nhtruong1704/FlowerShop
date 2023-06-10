@@ -127,11 +127,11 @@ public class FragmentEditProfile extends Fragment {
                     String ten = edtname.getText().toString().trim();
                     String diachi = edtaddress.getText().toString().trim();
                     if (email.isEmpty() || phone.isEmpty() || ten.isEmpty() || diachi.isEmpty()) {
-                        Toast.makeText(getActivity(), "Vui lòng nhập đầy đủ các trường", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(getActivity(), "Please fill in all fields", Toast.LENGTH_SHORT).show();
                     } else if (!email.matches("^[a-zA-Z][a-z0-9_\\.]{4,32}@[a-z0-9]{2,}(\\.[a-z0-9]{2,4}){1,2}$")) {
-                        Toast.makeText(getActivity(), "Email Không Hợp Lệ", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(getActivity(), "Invalid email", Toast.LENGTH_SHORT).show();
                     } else if (phone.length() < 10 || phone.length() > 12) {
-                        Toast.makeText(getActivity(), "Vui lòng nhập đúng số điện thoại!", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(getActivity(), "Please enter the correct phone number", Toast.LENGTH_SHORT).show();
                     } else {
                         change();
                     }
@@ -141,11 +141,11 @@ public class FragmentEditProfile extends Fragment {
                     String ten = edtname.getText().toString().trim();
                     String diachi = edtaddress.getText().toString().trim();
                     if (email.isEmpty() || phone.isEmpty() || ten.isEmpty() || diachi.isEmpty()) {
-                        Toast.makeText(getActivity(), "Vui lòng nhập đầy đủ các trường", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(getActivity(), "Please fill in all fields", Toast.LENGTH_SHORT).show();
                     } else if (!email.matches("^[a-zA-Z][a-z0-9_\\.]{4,32}@[a-z0-9]{2,}(\\.[a-z0-9]{2,4}){1,2}$")) {
-                        Toast.makeText(getActivity(), "Email Không Hợp Lệ", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(getActivity(), "Invalid email", Toast.LENGTH_SHORT).show();
                     } else if (phone.length() < 10 || phone.length() > 12) {
-                        Toast.makeText(getActivity(), "Vui lòng nhập đúng số điện thoại!", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(getActivity(), "Please enter the correct phone number", Toast.LENGTH_SHORT).show();
                     } else {
                         User store = new User();
                         store.setEmail(edtmail.getText().toString());

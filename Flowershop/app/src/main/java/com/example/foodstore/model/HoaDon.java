@@ -1,4 +1,4 @@
-package com.example.flowerstore.model;
+package com.example.flower.model;
 
 import java.util.ArrayList;
 
