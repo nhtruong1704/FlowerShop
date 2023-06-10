@@ -35,10 +35,10 @@
 
     </RelativeLayout>
     <Button
-        android:layout_width="match_parent"
+        android:layout_width="300dp"
         android:layout_height="40dp"
         android:id="@+id/login"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="25dp"
         android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"
         android:theme="@style/foating"

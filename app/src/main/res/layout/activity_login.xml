@@ -25,6 +25,7 @@
             android:layout_width="match_parent"
             android:layout_height="340dp"
             android:layout_gravity="center"
+            android:background="#f4f3f1"
             android:src="@drawable/anh_do_an_de_thuong_095144583">
 
         </ImageView>
@@ -42,7 +43,7 @@
             android:fontFamily="@font/shrikhand_regular"
             android:lineSpacingMultiplier="1.0"
             android:text="Flower Shop"
-            android:textColor="#00BCD4"
+            android:textColor="#c97c77"
             android:textSize="25sp"
             android:textStyle="bold" />
         <RelativeLayout
