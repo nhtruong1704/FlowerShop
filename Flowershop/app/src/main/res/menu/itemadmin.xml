@@ -4,7 +4,7 @@
 <item android:id="@+id/ds" android:title="Đơn tới"
    android:icon="@drawable/ic_baseline_room_service_24"/>
     <item android:id="@+id/category" android:title="Thêm món"
-        android:icon="@drawable/ic_baseline_fastfood_24"/>
+        android:icon="@drawable/baseline_local_florist_24"/>
     <item android:id="@+id/profile" android:title="Thông tin"
         android:icon="@drawable/icons8_user_50px"/>
 </menu>

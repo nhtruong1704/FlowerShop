@@ -100,7 +100,7 @@ public class MainActivity extends AppCompatActivity {
         localstorage = new Localstorage(this);
         getSupportActionBar().setDisplayShowTitleEnabled(false);
         toolbar.setNavigationIcon( R.drawable.ic_favorite_border );
-        bottommeo.add(new MeowBottomNavigation.Model(1, R.drawable.ic_baseline_fastfood_24 ));
+        bottommeo.add(new MeowBottomNavigation.Model(1, R.drawable.baseline_local_florist_24 ));
         bottommeo.add(new MeowBottomNavigation.Model(2, R.drawable.ic_baseline_shopping_basket_24 ));
         bottommeo.add(new MeowBottomNavigation.Model(3, R.drawable.ic_heart_liked));
         bottommeo.add(new MeowBottomNavigation.Model(4, R.drawable.ic_menu_black ));
